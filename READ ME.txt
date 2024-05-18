@@ -1,0 +1,8 @@
+TEAM 11
+Anggota aktif beserta tugas
+
+Athariq Rifky = Create an Account
+Putri Wulan Sari = Login
+Didil Maulana =  My Account > Edit Account Information & Edit Address
+Muhammad Aji Pangestu =  Choose productsand Update Shopping Cart
+Nur Jannah =  Proceed to Checkout

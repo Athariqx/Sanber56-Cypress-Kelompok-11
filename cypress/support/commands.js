@@ -12,7 +12,14 @@
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
 //
-//
+
+Cypress.Commands.add('register_fullname', (firstname,lastname) => {
+    cy.get('#firstname').type(firstname)
+    cy.get('#lastname').type(lastname)
+            //untuk isi first dan lastname
+})
+
+
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
 //
