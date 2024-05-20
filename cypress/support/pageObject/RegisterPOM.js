@@ -6,5 +6,6 @@ class registerPage {
     pswC = '#password-confirmation'
     register_btn = '#form-validate > .actions-toolbar > div.primary > .action'
     msg_error = '.message-error'
+   
 }
 export default new registerPage()
