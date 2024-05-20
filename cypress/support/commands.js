@@ -18,6 +18,16 @@ Cypress.Commands.add('register_fullname', (firstname,lastname) => {
     cy.get('#lastname').type(lastname)
             //untuk isi first dan lastname
 })
+Cypress.Commands.add('customerLogin', (useremail,userpass) => {
+    cy.get('#email').clear().type(useremail)
+    cy.get('#pass').clear().type(userpass)
+
+    cy.get('#send2').click()
+})
+Cypress.Commands.add('customerVerify', (elemen,textnya) => {
+    cy.get(elemen)
+    .should('contain.text',textnya)
+})
 
 
 // -- This is a child command --
